@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection">
+      
+
+  
+    <!-- Let browser know website is optimized for mobile -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Dining Out</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+      <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+      <!-- linked to sytlesheets-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    </head>
+
+    <body>
+            <header>
+                    <h1>Want to Dine Out</h1>
+                </header>
+            
+                <div class="wrapper">
+                    <div class="formWrapper">
+                        <form>
+                            <span>zomato</span>
+                            <input type="text" name="city" id="city-input" placeholder="Enter a city...">
+                            <!-- <input type="text" name="cuisine" id="cuisine-input" placeholder="Please select a cuisine..."> -->
+                            <select id="cuisine-input" class="input">
+                                <option value="null" selected disabled>Choose a cuisine...</option>
+                            </select>
+                            <button type="submit" class="api-call">Submit</button>
+                            <button type="submit" id="resetButton">Reset</button>
+                        </form>
+                    </div>
+                    <div class="resultsWrapper">
+                        <h2 id="head"></h2>
+                        <div class="results" id="hits"></div>
+                    </div>
+                </div>
+            
+
+      
+      <!-- linked to javascript file-->
+      <script type="text/javascript" src="assets/javascript/script.js"></script>
+    </body>
+  </html>
