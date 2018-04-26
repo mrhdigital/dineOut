@@ -28,3 +28,16 @@ header {
     margin-bottom: 20px;
 	padding: 10px;
 }		
+input, .input {
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 5px;
+    padding: 12px 10px;
+    width: 160px;
+}
+.venueName {
+    color: #cb202d;
+    font-size: 27px;
+    font-weight: bold;
+}
