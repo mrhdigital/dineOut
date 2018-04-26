@@ -209,7 +209,7 @@ $(document).ready(function () {
                          subDiv3.append(data.restaurants[i].restaurant.location.address + "<hr>");
                          p.append("Cuisines: " + data.restaurants[i].restaurant.cuisines + "<br>");
                          for (var cost = 0; cost < priceRange; cost++) {
-                             span.append("$%");
+                             span.append("$");
                          }
                          p.append("Cost: ", span);
                          anchor.attr("href", data.restaurants[i].restaurant.url);
