@@ -6,7 +6,8 @@ body{
     
 }
 header {
-    background: #cb202d;
+	background: #cb202d;
+	
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
@@ -21,4 +22,9 @@ header {
     width: 80%;
 	height: auto;
 }		
-	
+.venues {
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+	padding: 10px;
+}		
