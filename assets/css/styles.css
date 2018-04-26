@@ -41,3 +41,9 @@ input, .input {
     font-size: 27px;
     font-weight: bold;
 }
+.venueCity {
+    font-weight: bold;
+}
+.wrapper {
+	margin: 10px 10px 10px 10px;
+}
