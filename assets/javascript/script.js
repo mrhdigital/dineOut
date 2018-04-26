@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
 
-    // var apiKey = 'ef5b1abf524ce5d1f47b5b0f797a9d72';
+    
      var apiKey = '3d79c0c33955e5e3d00c6de1cec0d473';
      var citySearchURL = "https://developers.zomato.com/api/v2.1/cities";
      var cuisineSearchURL = "https://developers.zomato.com/api/v2.1/cuisines";
@@ -12,6 +12,17 @@ $(document).ready(function () {
      var cuisineId;
      var city;
      var cityId;
+
+     $(document).on("click", "#resetButton", function(event) {
+        
+        // event.preventDefault();
+         $("#cuisine-input").empty();
+         $("#city-input").empty();
+         $(".resultsWrapper").empty();
+         $("#city-input").val("");
+         $("#cuisine-input").css("display", "none");
+         
+     });
  
     
  
